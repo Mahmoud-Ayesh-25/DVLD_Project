@@ -1,0 +1,246 @@
+﻿namespace DVLD_Project.Users
+{
+    partial class frmUserInfo
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.cuiLabel1 = new CuoreUI.Controls.cuiLabel();
+            this.btnClose = new CuoreUI.Controls.cuiButton();
+            this.btnMinimize = new CuoreUI.Controls.cuiButton();
+            this.cuiLabel2 = new CuoreUI.Controls.cuiLabel();
+            this.cuiLabel3 = new CuoreUI.Controls.cuiLabel();
+            this.ctrlPersonCard = new DVLD_Project.ctrlPersonCard();
+            this.ctrlUserCard = new DVLD_Project.ctrlUserCard();
+            this.cuiFormRounder = new CuoreUI.Components.cuiFormRounder();
+            this.cuiFormDrag = new CuoreUI.Components.cuiFormDrag(this.components);
+            this.cuiFormAnimator = new CuoreUI.Components.cuiFormAnimator(this.components);
+            this.cuiSeparator1 = new CuoreUI.Controls.cuiSeparator();
+            this.SuspendLayout();
+            // 
+            // cuiLabel1
+            // 
+            this.cuiLabel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.cuiLabel1.Content = "User\\ Info";
+            this.cuiLabel1.Enabled = false;
+            this.cuiLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cuiLabel1.HorizontalAlignment = System.Drawing.StringAlignment.Center;
+            this.cuiLabel1.Location = new System.Drawing.Point(12, 12);
+            this.cuiLabel1.Name = "cuiLabel1";
+            this.cuiLabel1.Size = new System.Drawing.Size(780, 25);
+            this.cuiLabel1.TabIndex = 13;
+            this.cuiLabel1.VerticalAlignment = System.Drawing.StringAlignment.Center;
+            // 
+            // btnClose
+            // 
+            this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnClose.BackColor = System.Drawing.Color.Transparent;
+            this.btnClose.CheckButton = false;
+            this.btnClose.Checked = false;
+            this.btnClose.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
+            this.btnClose.CheckedForeColor = System.Drawing.Color.White;
+            this.btnClose.CheckedImageTint = System.Drawing.Color.White;
+            this.btnClose.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
+            this.btnClose.Content = "";
+            this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnClose.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.btnClose.ForeColor = System.Drawing.Color.Black;
+            this.btnClose.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnClose.HoverForeColor = System.Drawing.Color.Black;
+            this.btnClose.HoverImageTint = System.Drawing.Color.White;
+            this.btnClose.HoverOutline = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnClose.Image = global::DVLD_Project.Properties.Resources.cancel;
+            this.btnClose.ImageAutoCenter = true;
+            this.btnClose.ImageExpand = new System.Drawing.Point(0, 0);
+            this.btnClose.ImageOffset = new System.Drawing.Point(0, 0);
+            this.btnClose.Location = new System.Drawing.Point(767, 12);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.NormalBackground = System.Drawing.Color.White;
+            this.btnClose.NormalForeColor = System.Drawing.Color.Black;
+            this.btnClose.NormalImageTint = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnClose.NormalOutline = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnClose.OutlineThickness = 1F;
+            this.btnClose.PressedBackground = System.Drawing.Color.Maroon;
+            this.btnClose.PressedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.btnClose.PressedImageTint = System.Drawing.Color.White;
+            this.btnClose.PressedOutline = System.Drawing.Color.Maroon;
+            this.btnClose.Rounding = new System.Windows.Forms.Padding(12);
+            this.btnClose.Size = new System.Drawing.Size(25, 25);
+            this.btnClose.TabIndex = 11;
+            this.btnClose.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.btnClose.TextOffset = new System.Drawing.Point(0, 0);
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // btnMinimize
+            // 
+            this.btnMinimize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnMinimize.BackColor = System.Drawing.Color.Transparent;
+            this.btnMinimize.CheckButton = false;
+            this.btnMinimize.Checked = false;
+            this.btnMinimize.CheckedBackground = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
+            this.btnMinimize.CheckedForeColor = System.Drawing.Color.White;
+            this.btnMinimize.CheckedImageTint = System.Drawing.Color.White;
+            this.btnMinimize.CheckedOutline = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(106)))), ((int)(((byte)(0)))));
+            this.btnMinimize.Content = "";
+            this.btnMinimize.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMinimize.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.btnMinimize.ForeColor = System.Drawing.Color.Black;
+            this.btnMinimize.HoverBackground = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(60)))), ((int)(((byte)(110)))));
+            this.btnMinimize.HoverForeColor = System.Drawing.Color.Black;
+            this.btnMinimize.HoverImageTint = System.Drawing.Color.White;
+            this.btnMinimize.HoverOutline = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(60)))), ((int)(((byte)(110)))));
+            this.btnMinimize.Image = global::DVLD_Project.Properties.Resources.down_chevron;
+            this.btnMinimize.ImageAutoCenter = true;
+            this.btnMinimize.ImageExpand = new System.Drawing.Point(0, 0);
+            this.btnMinimize.ImageOffset = new System.Drawing.Point(0, 0);
+            this.btnMinimize.Location = new System.Drawing.Point(736, 12);
+            this.btnMinimize.Name = "btnMinimize";
+            this.btnMinimize.NormalBackground = System.Drawing.Color.White;
+            this.btnMinimize.NormalForeColor = System.Drawing.Color.Black;
+            this.btnMinimize.NormalImageTint = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(60)))), ((int)(((byte)(110)))));
+            this.btnMinimize.NormalOutline = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(60)))), ((int)(((byte)(110)))));
+            this.btnMinimize.OutlineThickness = 1F;
+            this.btnMinimize.PressedBackground = System.Drawing.Color.Black;
+            this.btnMinimize.PressedForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(60)))), ((int)(((byte)(110)))));
+            this.btnMinimize.PressedImageTint = System.Drawing.Color.White;
+            this.btnMinimize.PressedOutline = System.Drawing.Color.Black;
+            this.btnMinimize.Rounding = new System.Windows.Forms.Padding(12);
+            this.btnMinimize.Size = new System.Drawing.Size(25, 25);
+            this.btnMinimize.TabIndex = 12;
+            this.btnMinimize.TextAlignment = System.Drawing.StringAlignment.Center;
+            this.btnMinimize.TextOffset = new System.Drawing.Point(0, 0);
+            this.btnMinimize.Click += new System.EventHandler(this.btnMinimize_Click);
+            // 
+            // cuiLabel2
+            // 
+            this.cuiLabel2.Content = "User\\ Info\\ :\\ ";
+            this.cuiLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cuiLabel2.HorizontalAlignment = System.Drawing.StringAlignment.Near;
+            this.cuiLabel2.Location = new System.Drawing.Point(12, 52);
+            this.cuiLabel2.Name = "cuiLabel2";
+            this.cuiLabel2.Size = new System.Drawing.Size(210, 20);
+            this.cuiLabel2.TabIndex = 16;
+            this.cuiLabel2.VerticalAlignment = System.Drawing.StringAlignment.Center;
+            // 
+            // cuiLabel3
+            // 
+            this.cuiLabel3.Content = "Person\\ Info\\ :\\ ";
+            this.cuiLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cuiLabel3.HorizontalAlignment = System.Drawing.StringAlignment.Near;
+            this.cuiLabel3.Location = new System.Drawing.Point(12, 170);
+            this.cuiLabel3.Name = "cuiLabel3";
+            this.cuiLabel3.Size = new System.Drawing.Size(210, 20);
+            this.cuiLabel3.TabIndex = 16;
+            this.cuiLabel3.VerticalAlignment = System.Drawing.StringAlignment.Center;
+            // 
+            // ctrlPersonCard
+            // 
+            this.ctrlPersonCard.BackColor = System.Drawing.Color.White;
+            this.ctrlPersonCard.Location = new System.Drawing.Point(12, 196);
+            this.ctrlPersonCard.Name = "ctrlPersonCard";
+            this.ctrlPersonCard.Size = new System.Drawing.Size(780, 320);
+            this.ctrlPersonCard.TabIndex = 15;
+            // 
+            // ctrlUserCard
+            // 
+            this.ctrlUserCard.BackColor = System.Drawing.Color.White;
+            this.ctrlUserCard.Location = new System.Drawing.Point(12, 78);
+            this.ctrlUserCard.Name = "ctrlUserCard";
+            this.ctrlUserCard.Size = new System.Drawing.Size(780, 76);
+            this.ctrlUserCard.TabIndex = 14;
+            this.ctrlUserCard.User = null;
+            this.ctrlUserCard.UserID = 0;
+            // 
+            // cuiFormRounder
+            // 
+            this.cuiFormRounder.OutlineColor = System.Drawing.Color.Silver;
+            this.cuiFormRounder.Rounding = 8;
+            this.cuiFormRounder.TargetForm = this;
+            // 
+            // cuiFormDrag
+            // 
+            this.cuiFormDrag.TargetForm = this;
+            // 
+            // cuiFormAnimator
+            // 
+            this.cuiFormAnimator.AnimateOnStart = true;
+            this.cuiFormAnimator.Duration = 150;
+            this.cuiFormAnimator.EasingType = CuoreUI.Drawing.EasingTypes.QuadIn;
+            this.cuiFormAnimator.StartOpacity = 0D;
+            this.cuiFormAnimator.TargetForm = this;
+            this.cuiFormAnimator.TargetOpacity = 1D;
+            // 
+            // cuiSeparator1
+            // 
+            this.cuiSeparator1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.cuiSeparator1.Location = new System.Drawing.Point(89, 170);
+            this.cuiSeparator1.Name = "cuiSeparator1";
+            this.cuiSeparator1.SeparatorMargin = 8;
+            this.cuiSeparator1.Size = new System.Drawing.Size(703, 20);
+            this.cuiSeparator1.TabIndex = 17;
+            this.cuiSeparator1.Thickness = 0.5F;
+            this.cuiSeparator1.Vertical = false;
+            // 
+            // frmUserInfo
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(804, 528);
+            this.Controls.Add(this.cuiSeparator1);
+            this.Controls.Add(this.cuiLabel3);
+            this.Controls.Add(this.cuiLabel2);
+            this.Controls.Add(this.ctrlPersonCard);
+            this.Controls.Add(this.ctrlUserCard);
+            this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.btnMinimize);
+            this.Controls.Add(this.cuiLabel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "frmUserInfo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "frmUserInfo";
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private CuoreUI.Controls.cuiButton btnClose;
+        private CuoreUI.Controls.cuiButton btnMinimize;
+        private CuoreUI.Controls.cuiLabel cuiLabel1;
+        private ctrlUserCard ctrlUserCard;
+        private ctrlPersonCard ctrlPersonCard;
+        private CuoreUI.Controls.cuiLabel cuiLabel2;
+        private CuoreUI.Controls.cuiLabel cuiLabel3;
+        private CuoreUI.Components.cuiFormRounder cuiFormRounder;
+        private CuoreUI.Components.cuiFormDrag cuiFormDrag;
+        private CuoreUI.Components.cuiFormAnimator cuiFormAnimator;
+        private CuoreUI.Controls.cuiSeparator cuiSeparator1;
+    }
+}
