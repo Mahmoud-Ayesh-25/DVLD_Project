@@ -1,9 +1,6 @@
 # DVLD_Project
 Repository for DVLD (Driving &amp; Vehicle License Department) project.
 
-# MyTranslator
-Repository for MyTranslator project.
-
 ## Important notes
 1. The project does not contain database files. If you want to download the database files, you will find them at this link: https://www.dropbox.com/scl/fo/i0chim0iqtx3xntvrph6i/AOxYA1VsEqQUpw9lkcYCBMk?rlkey=9mmuqle6xdmkfo0nltyuax5r5&st=zsovfaoa&dl=0
 2. Put the database in \bin\DB or modify the connection string and place it wherever you want.
